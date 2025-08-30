@@ -6,6 +6,8 @@ with eligible as (
   where last_visit <= to_date('{{ as_of }}')
 ),
 maxd as (select max(last_visit) as max_visit from eligible)
+
+
 select e.first_name, e.country, e.profession, e.last_visit
 from eligible e
 join maxd m on e.last_visit = m.max_visit
