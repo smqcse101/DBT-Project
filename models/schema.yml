@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: NEW_WORK_DB
+    schema: RAW
+    tables:
+      - name: postings_data
+      - name: clicks_data
+      - name: cl_level
