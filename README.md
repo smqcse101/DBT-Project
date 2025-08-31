@@ -1,6 +1,8 @@
 #  DBT SQL Solutions
 
 This repository contains my solutions for different SQL tasks built with **DBT** on top of **Snowflake**.  
+You can also look at the Dasboard to see more insights on the data provided. [Link Text](https://shorturl.at/dUFIt)
+
 All the core solutions can be found in the **`models/solutions/`** folder, this is the main place to explore when reviewing my work.
 
 ---
@@ -27,7 +29,8 @@ Example:
 - **Snowflake** → Data warehouse. Here the actually is actually stored and compute happens.
 - **DBT (Data Build Tool)** → Modeling and transformations  
 - **SQL** → Querying and analysis  
-- *(Optional)* **Power BI** → Used to visualize insights  
+-  **Power BI** → Used to visualize insights. Here is the link to Dashboard. [Link Text](https://shorturl.at/dUFIt)
+  
 
 ---
 
